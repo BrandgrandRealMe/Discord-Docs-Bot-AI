@@ -10,7 +10,7 @@
 // And then run your application using 'node -r dotenv/config your_script.js'
 // or ensure 'dotenv/config' is imported in your main entry file or this file if needed.
 
-// import 'dotenv/config'; // UNCOMMENT THIS LINE IF settings.js IS THE FIRST FILE TO USE ENV VARS
+import 'dotenv/config'; 
 
 /**
  * Configuration settings for the bot.
@@ -23,6 +23,7 @@ const settings = {
   CLIENT_ID: "YOUR_DISCORD_CLIENT_ID", // Example: "1381418314412331058"
   GUILD_ID: "YOUR_DISCORD_GUILD_ID",   // Example: "1379665832350842910"
   DISCORD_TOKEN: process.env.DISCORD_TOKEN, // Your bot's token (from .env)
+  DEV_ID: "1381460548088103113", // Your ID
 
   // Documentation Fetching Settings
   // BASE_URL is the root URL of your documentation site.
